@@ -4,7 +4,7 @@
     "ES6 Reactjs code snippets for vscode compliant with Airbnb style guide",
   "version": "0.0.1",
   "displayName": "Airbnb react snippets",
-  "publisher": "Cobeia",
+  "publisher": "cobeia",
   "icon": "images/react.png",
   "galleryBanner": {
     "theme": "light"
