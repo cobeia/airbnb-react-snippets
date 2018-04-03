@@ -4,7 +4,7 @@
 
 ---
 
-ES6 [Reactjs][react] code snippets for vscode compliant with Airbnb style guide
+ES6 [Reactjs][react] code snippets for vscode compliant with [Airbnb style guide](https://github.com/airbnb/javascript/tree/master/react)
 
 ## Installation
 
@@ -22,35 +22,27 @@ There you have either the option to show the already installed snippets or insta
 
 Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
 
-|  Trigger | Content                                                          |
-| -------: | ---------------------------------------------------------------- |
-|   `rcc→` | class component skeleton                                         |
-|   `rrc→` | class component skeleton with react-redux connect                |
-|  `rccp→` | class component skeleton with prop types after the class         |
-|  `rcjc→` | class component skeleton without import and default export lines |
-|  `rcfc→` | class component skeleton that contains all the lifecycle methods |
-|  `rwwd→` | class component without import statements                        |
-|   `rpc→` | class pure component skeleton with prop types after the class    |
-|   `rsc→` | stateless component skeleton                                     |
-|  `rscp→` | stateless component with prop types skeleton                     |
-|   `rpt→` | empty propTypes declaration                                      |
-|   `rdp→` | empty defaultProps declaration                                   |
-|   `con→` | class default constructor with props                             |
-|  `conc→` | class default constructor with props and context                 |
-|   `est→` | empty state object                                               |
-|   `cwm→` | `componentWillMount method`                                      |
-|   `cdm→` | `componentDidMount method`                                       |
-|   `cwr→` | `componentWillReceiveProps method`                               |
-|   `scu→` | `shouldComponentUpdate method`                                   |
-|  `cwup→` | `componentWillUpdate method`                                     |
-|  `cdup→` | `componentDidUpdate method`                                      |
-|  `cwun→` | `componentWillUnmount method`                                    |
-|   `ren→` | `render method`                                                  |
-|   `sst→` | `this.setState with object as parameter`                         |
-|   `ssf→` | `this.setState with function as parameter`                       |
-| `props→` | `this.props`                                                     |
-| `state→` | `this.state`                                                     |
-|   `bnd→` | `binds the this of method inside the constructor`                |
+|   Trigger | Content                                           |
+| --------: | ------------------------------------------------- |
+|     `rc→` | class component skeleton                          |
+|    `rcc→` | class component skeleton with constructor         |
+|  `rfunc→` | stateless component skeleton                      |
+| `rconst→` | class default constructor                         |
+|    `rpt→` | empty propTypes declaration                       |
+|    `rdp→` | empty defaultProps declaration                    |
+|    `rbm→` | `binds the this of method inside the constructor` |
+|   `rcwm→` | `componentWillMount method`                       |
+|   `rcdm→` | `componentDidMount method`                        |
+|   `rcwr→` | `componentWillReceiveProps method`                |
+|   `rscu→` | `shouldComponentUpdate method`                    |
+|  `rcwup→` | `componentWillUpdate method`                      |
+|  `rcdup→` | `componentDidUpdate method`                       |
+|  `rcwun→` | `componentWillUnmount method`                     |
+|   `rren→` | `render method`                                   |
+|   `rsst→` | `this.setState with object as parameter`          |
+|   `rssf→` | `this.setState with function as parameter`        |
+| `rprops→` | `this.props`                                      |
+| `rstate→` | `this.state`                                      |
 
 The following table lists all the snippets that can be used for prop types.
 Every snippet regarding prop types begins with `pt` so it's easy to group it all together and explore all the available options.
