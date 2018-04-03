@@ -1,0 +1,41 @@
+{
+  "name": "airbnb-react-snippets",
+  "description":
+    "ES6 Reactjs code snippets for vscode compliant with Airbnb style guide",
+  "version": "0.0.1",
+  "displayName": "Airbnb react snippets",
+  "publisher": "Cobeia",
+  "icon": "images/react.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cobeia/airbnb-react-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": ["Snippets"],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
