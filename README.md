@@ -1,10 +1,6 @@
-# Reactjs
+# Airbnb react snippets
 
-## VS Code Reactjs snippets
-
----
-
-ES6 [Reactjs][react] code snippets for vscode compliant with [Airbnb style guide](https://github.com/airbnb/javascript/tree/master/react)
+ES6 [Reactjs][react] code snippets for VS Code compliant with [Airbnb style guide](https://github.com/airbnb/javascript/tree/master/react)
 
 ## Installation
 
@@ -81,3 +77,5 @@ For example `pta` creates the `PropTypes.array` and `ptar` creates the `PropType
 | `ptshr→` | `PropTypes.shape({color: PropTypes.string, fontSize: PropTypes.number}).isRequired,` |
 
 [react]: https://facebook.github.io/react/
+[badass-react-snippets]: https://github.com/tylerbuchea/badass-react-snippets
+[vscode-react]: https://github.com/xabikos/vscode-react
